@@ -1,0 +1,141 @@
+/* resetando a pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo geral da página*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/*Cabeçalho*/
+header{
+    background-color: #1c1c1c;
+    padding: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+header .logo{
+    font-family: 'Playfair Display', serif
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .nav-links {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header .nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+header .nav-links a:hover {
+    color: #ff6347;
+}
+
+/* Parte principal da pagina */
+.titulo {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.titulo-content {
+    max-width: 700px;
+}
+
+.titulo h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.titulo p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.titulo .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: white;
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.titulo .btn:hover {
+    background-color: #ff6347;
+    color: white;
+}
+
+/* Sobre mim*/
+.sobre_mim {
+    background-color: white;
+    padding: 60px 20px;
+    border-top: 3px solid #ff6347;
+    border-bottom: 3px solid #ff6347;
+}
+
+.sobre_mim .container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.sobre_mim h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #1c1c1c;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.sobre_mim p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.sobre_mim h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 20px
+}
+
+/* Rodapé*/
+footer{
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
